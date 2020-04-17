@@ -20,13 +20,12 @@ header {
     justify-content: space-between;
 }
 .top_container nav {
-
 }
 .top_container nav ul {
     list-style:none;
-}
-.top_container nav ul li {
-    display:inline-block;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 nav ul li a {
     text-decoration:none;
@@ -41,10 +40,13 @@ ul li a:hover{
     transition:0.5ms;
 }
 .description {
-    float:right;
     padding-top:183px;
     width:470px;
     margin-right:27px;
+}
+.flex_description {
+    display: flex;
+    justify-content: flex-end;
 }
 .description h1 {
     color:black;
@@ -58,11 +60,6 @@ ul li a:hover{
     padding-bottom:42px;
     line-height:1.5em;
     font-family: 'Nunito Sans', sans-serif;
-}
-.head_block:after {
-    clear:both;
-    display:block;
-    content:"";
 }
 .button{
     text-decoration:none;
@@ -108,6 +105,9 @@ ul li a:hover{
    width:50%;
     height:570px;
     background-color:#f8f9f9;
+}
+.item_3 {
+    width: 50%;
 }
 .progress {
     max-width:500px;
@@ -182,8 +182,30 @@ ul li a:hover{
     display:flex;
     justify-content:space-between;
 }
+.portfolio {
+    width:25%;
+    padding:0 30px;
+    display: flex;
+}
+.clock {
+    width:25%;
+    padding:0 30px;
+    display: flex;
+}
+.feedback {
+    width: 25%;
+    padding:0 30px;
+    display: flex;
+}
+.like {
+    width:25%;
+    padding:0 30px;
+    display: flex;
+}
+
 .blocks_success  {
-    display: inline-block;
+    display:flex;
+    flex-direction:column;
     padding-left:26px;
 }
 .blocks_success span {
@@ -202,36 +224,37 @@ ul li a:hover{
 .block_white_grey {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .flex_block_1 {
     width:25%;
     height:300px;
-    background-color:gray;
+    background-color:#DAA520;
 }
 .flex_block_2 {
     width:25%;
     height:300px;
-    background-color:#dddddd;
+    background-color:#FFEBCD;
 }
 .flex_block_3 {
     width:25%;
     height:300px;
-    background-color:gray;
+    background-color:#FFE4C4;
 }
 .flex_block_4 {
     width:25%;
     height:300px;
-    background-color:#dddddd;
+    background-color:#FFDEAD;
 }
 .flex_block_5 {
     width:25%;
     height:300px;
-    background-color:#dddddd;
+    background-color:#F5DEB3;
 }
 .flex_block_6 {
     width:25%;
     height:300px;
-    background-color:gray;
+    background-color:#DEB887;
     transition:1ms;
     position:relative;
 }
@@ -246,12 +269,12 @@ ul li a:hover{
 .flex_block_7 {
     width:25%;
     height:300px;
-    background-color:#dddddd;
+    background-color:#D2B48C;
 }
 .flex_block_8 {
     width:25%;
     height:300px;
-    background-color:gray;
+    background-color:#CD853F;
 }
 .upload_work {
     text-align:center;
@@ -300,6 +323,7 @@ ul li a:hover{
     position:absolute;
     right:50%;
     bottom:50%;
+    margin-bottom:-15px;
 }
 .triangle{
     position:absolute;
@@ -319,6 +343,7 @@ ul li a:hover{
     display:flex;
     justify-content:space-between;
     padding-top:100px;
+    flex-wrap:wrap;
 }
 .types_of_services h6 {
     text-transform:uppercase;
@@ -334,16 +359,20 @@ ul li a:hover{
     font-family: 'Nunito Sans', sans-serif;
 }
 .ux_service {
-    max-width:230px;
+    width:25%;
+    padding:0 15px;
 }
 .web_service {
-    max-width:230px;
+    width:25%;
+    padding:0 15px;
 }
 .phone_service {
-max-width:228px;
+    width:25%;
+    padding:0 15px;
 }
 .game_service {
-max-width:200px;
+    width:25%;
+    padding:0 15px;
 }
 .types_of_services_2 {
     max-width:1170px;
@@ -354,6 +383,7 @@ max-width:200px;
     text-align:center;
     padding-top:55px;
     padding-bottom:100px;
+    flex-wrap: wrap;
 }
 .types_of_services_2 h6{
     text-transform:uppercase;
@@ -369,16 +399,19 @@ max-width:200px;
     font-family: 'Nunito Sans', sans-serif;
 }
 .seo_service {
-   max-width:240px;
+    width:25%;
 }
 .photo_service {
-    max-width:223px;
+    width:25%;
+    padding:0 15px;
 }
 .graphic_service {
-    max-width:225px;
+    width:25%;
+    padding:0 15px;
 }
 .illustration_service {
-    max-width:232px;
+    width:25%;
+    padding:0 15px;
 }
 .block_slide {
     background-color:#10c9c3;
@@ -405,29 +438,51 @@ max-width:200px;
     font-family: 'Montserrat', sans-serif;
 }
 .projects {
-    max-width:1100px;
+    max-width:1170px;
     padding-top:64px;
+    padding-bottom:68px;
     margin:auto;
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.vintage {
+   width:20%;
+    padding:0 35px ;
+}
+.mountain {
+    width:20%;
+    padding:0 35px ;
+}
+.authen {
+    width:20%;
+    padding:0 35px ;
+}
+.mountainbike {
+    width:20%;
+    padding:0 35px ;
+}
+.vintage_2 {
+    width:20%;
+    padding:0 35px ;
 }
 .before_footer{
     background-color:#f5f5f5;
     margin-top:68px;
 }
-.form {
+.cooperation{
     max-width:671px;
     margin:auto;
     text-align:center;
     padding-top:100px;
 }
-.form h2 {
+.cooperation h2 {
     color:black;
     font-size:30px;
     padding-bottom:40px;
     font-family: 'Montserrat', sans-serif;
 }
-.form p {
+.cooperation p {
     color:#787878;
     font-size:16px;
     padding-bottom:41px;
@@ -436,6 +491,12 @@ max-width:200px;
 .form_name_email {
     display:flex;
     justify-content: space-between;
+}
+.name_form {
+    width:48%;
+}
+.email_form {
+    width:48%;
 }
 form input {
     padding-top:18px;
@@ -479,7 +540,7 @@ form textarea {
 footer{
     background-color:#141414;
 }
-.block_ft {
+.container_ft {
     max-width:1170px;
     margin:auto;
     padding-top:100px;
@@ -487,6 +548,11 @@ footer{
     display:flex;
     justify-content:space-between;
     align-items:stretch;
+    flex-wrap: wrap;
+}
+.block_ft_1 {
+    display: flex;
+    justify-content: space-between;
 }
 .author h3 {
     color:white;
@@ -503,6 +569,12 @@ footer{
     font-size:15px;
     color:#b4b4b4;
     font-family: 'Nunito Sans', sans-serif;
+}
+.description_ft {
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .menu_ft{
     display: flex;
@@ -538,6 +610,9 @@ footer{
     font-size:15px;
     font-family: 'Nunito Sans', sans-serif;
 }
+.social_networks {
+    margin-left:65px;
+}
 .social_networks ul {
     list-style:none;
 }
@@ -549,4 +624,8 @@ footer{
     color:#b4b4b4;
     font-size:15px;
     font-family: 'Nunito Sans', sans-serif;
+}
+.block_menu_1 {
+    display: flex;
+    margin-right:65px;
 }

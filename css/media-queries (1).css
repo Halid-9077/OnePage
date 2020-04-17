@@ -1,0 +1,267 @@
+
+@media only screen and (max-width: 768px) {
+    .success {
+        flex-wrap:nowrap;
+    }
+    .portfolio {
+        width:100%;
+        padding: 15px 5px;
+    }
+    .clock {
+        width:100%;
+        padding: 15px 5px;
+    }
+    .feedback {
+        width:100%;
+        padding: 15px 5px;
+    }
+    .like {
+        width:100%;
+        padding: 15px 5px;
+    }
+    .flex_block_1 {
+        width:50%;
+        height:300px;
+    }
+    .flex_block_2 {
+        width:50%;
+        height:300px;
+    }
+    .flex_block_3 {
+        width:50%;
+        height:300px;
+
+    }
+    .flex_block_4 {
+        width:50%;
+        height:300px;
+
+    }
+    .flex_block_5 {
+        width:50%;
+        height:300px;
+    }
+    .flex_block_6 {
+        width:50%;
+        height:300px;
+    }
+    .flex_block_7 {
+        width:50%;
+        height:300px;
+    }
+    .flex_block_8 {
+        width:50%;
+        height:300px;
+    }
+    .ux_service {
+        width:50%;
+        padding:15px  15px;
+    }
+    .web_service {
+        width:50%;
+        padding:15px  15px;
+    }
+    .phone_service {
+        width:50%;
+        padding:15px  15px;
+    }
+    .game_service {
+        width:50%;
+        padding:15px  15px;
+    }
+    .seo_service {
+        width:50%;
+        padding:15px  15px;
+    }
+    .photo_service {
+        width:50%;
+        padding:15px  15px;
+    }
+    .graphic_service {
+        width:50%;
+        padding:15px  15px;
+    }
+    .illustration_service {
+        width:50%;
+        padding:15px 15px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .success {
+        padding-left: 45px;
+        flex-wrap: wrap;
+    }
+
+    .portfolio {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .clock {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .feedback {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .like {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .flex_block_1 {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .flex_block_2 {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .flex_block_3 {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .flex_block_4 {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .flex_block_5 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .flex_block_6 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .flex_block_7 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .flex_block_8 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .ux_service {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .web_service {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .phone_service {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .game_service {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .seo_service {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .photo_service {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .graphic_service {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .illustration_service {
+        width: 100%;
+        padding: 15px 15px;
+    }
+
+    .projects {
+        padding-left: 80px;
+    }
+
+    .vintage {
+        width: 100%;
+        padding: 20px 35px;
+    }
+
+    .mountain {
+        width: 100%;
+        padding: 20px 35px;
+    }
+
+    .authen {
+        width: 100%;
+        padding: 20px 35px;
+    }
+
+    .mountainbike {
+        width: 100%;
+        padding: 20px 35px;
+    }
+
+    .vintage_2 {
+        width: 100%;
+        padding: 20px 35px;
+    }
+
+    .form_name_email {
+        flex-wrap: wrap;
+    }
+.form {
+    margin: 0 15px;
+}
+    .name_form {
+        width: 100%;
+    }
+
+    .email_form {
+        width: 100%;
+    }
+    .menu_ft {
+        margin:50px;
+    }
+    .block_menu_1 {
+        margin-right:15px;
+    }
+    .menu_1 {
+        margin-right:15px;
+    }
+    .menu_2 {
+        margin-right:15px;
+    }
+    .social_networks {
+        margin-left:15px;
+    }
+    .description_ft {
+        margin-left:63px;
+    }
+    .contacts {
+        padding-top:15px;
+    }
+    .flex_description {
+        padding:  0 15px;
+    }
+}
+
+
