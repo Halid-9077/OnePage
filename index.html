@@ -6,12 +6,29 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries (1).css">
 </head>
 <body>
+<div id="dialog" title="Forgot your password?">
+   <div class="form_animation_js">
+       <form action="" method="post" >
+           <div class="flex_form_animation">
+           <label for="Email">Email your<br> email</label>
+           <input type="email" id="Email">
+           </div>
+           <button   type="reset" class="reset_password ">Reset password</button>
+           <h4>Or</h4>
+           <button   type="button" class="log_in_fcb ">Log In Using Facebook</button>
+       </form>
+   </div>
+</div>
 <header>
     <div class="head_block">
         <div class=" top_container">
@@ -20,7 +37,7 @@
             </a>
             <nav>
                 <ul>
-                    <li><a class="home_menu" href="#">Home</a></li>
+                    <li><a  class="home_menu" href="#">Home</a></li>
                     <li><a class="about_menu" href="#">About</a></li>
                     <li><a class="work_menu" href="#">Work</a></li>
                     <li><a class="process_menu" href="#">Process</a></li>
@@ -36,7 +53,7 @@
                 <p>We are a new design studio based in USA. We have over
                     20 years of combined experience, and know a thing or two
                     about designing websites and mobile apps.</p>
-                <a href="#" class="button">Contact us</a>
+                <a href="#" class="button" id="opener">Contact us</a>
             </div>
         </div>
     </div>
@@ -193,11 +210,26 @@
     </div>
 </section>
 <section class="block_slide">
-    <div>
-        <p>“ Outstanding job and exceeded all expectations. It was a pleasure
-            to work with them on a sizable first project and am looking
-            forward to start the next one asap.”</p>
-        <h6>Michael Hopkins</h6>
+
+    <div class="owl-carousel">
+        <div class="description_slide">
+            <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                to work with them on a sizable first project and am looking
+                forward to start the next one asap.”</p>
+            <h6>Michael Hopkins</h6>
+        </div>
+        <div class="description_slide">
+            <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                to work with them on a sizable first project and am looking
+                forward to start the next one asap.”</p>
+            <h6>Michael Hopkins</h6>
+        </div>
+        <div class="description_slide">
+            <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                to work with them on a sizable first project and am looking
+                forward to start the next one asap.”</p>
+            <h6>Michael Hopkins</h6>
+        </div>
     </div>
 </section>
 <div class="projects">
@@ -274,5 +306,12 @@
         </div>
     </div>
 </footer>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
